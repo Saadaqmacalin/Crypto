@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Routes , Route } from "react-router";
 const API_URL = import.meta.env.VITE_API_URL;
 
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import Header from "./Components/Header";
 import NotFoundPage from "./pages/NotFoundPage";
